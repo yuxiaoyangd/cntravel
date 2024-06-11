@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅游攻略</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎来到旅游攻略网站</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#destinations">目的地</a></li>
+                <li><a href="#tips">旅游贴士</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>探索世界</h2>
+        <p>发现最棒的旅游目的地和贴士，让你的旅行更加精彩！</p>
+        <button onclick="showAlert()">点击了解更多</button>
+    </section>
+
+    <section id="destinations" class="section">
+        <h2>热门目的地</h2>
+        <div class="card">
+            <h3>新加坡</h3>
+            <p>感受狮城的魅力与多样文化。</p>
+        </div>
+        <div class="card">
+            <h3>巴黎</h3>
+            <p>体验浪漫之都的艺术与美食。</p>
+        </div>
+        <div class="card">
+            <h3>东京</h3>
+            <p>探索现代与传统交融的城市。</p>
+        </div>
+    </section>
+
+    <section id="tips" class="section">
+        <h2>旅游贴士</h2>
+        <ul>
+            <li>提前规划行程，确保顺利出行。</li>
+            <li>了解当地文化与习俗，尊重当地风俗。</li>
+            <li>保持健康，注意安全。</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>联系我们</h2>
+        <form>
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name">
+            <label for="email">邮箱：</label>
+            <input type="email" id="email" name="email">
+            <label for="message">信息：</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">提交</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 旅游攻略网站. 版权所有.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
